@@ -1,0 +1,42 @@
+scenario:
+- user 'starts sesh'
+- user gets link/qrcode to share to friends
+- user is prompted to input name and 
+
+- other user clicks link to join group
+- user is prompted to input name, gender and location relative to others currently in group
+- each user will be displayed a ring of cards
+- for user to pick their card they must drag from the ring to the bottom of the screen
+- 
+
+A - Waterfall
+- app will display to all users that a waterfall is happening
+2 - Choose
+- app will prompt user to pick from a selection of users
+- app will display dropdown of users ""
+3 - Me
+- app will prompt the user to drink
+4 - Whore
+- app will prompt all girls to drink
+5 - Thumb Master
+- ?
+6 - Dicks
+- app will prompt all guys to drink
+7 - Heaven
+- ?
+8 - Mate
+- app will prompt user to pick a mate
+- this mate will be prompted to drink when the user drinks
+9 - Rhyme
+- app will display to all users that a waterfall is happening
+10 - Categories
+- ?
+Jack - Rule
+- form to enter rule information?
+Queen - Questions
+- ?
+King - Pour
+- app will add to king tally
+- on final king app will prompt user to drink
+
+http://www.petercollingridge.co.uk/tutorials/svg/interactive/dragging/

@@ -1,0 +1,31 @@
+- card are represented as degrees around circle
+- this gives an order to the circle that makes it easy to check if its broken
+- there is a donut where the user can place cards without taking it
+- card generate on a cirlce inside the donut
+- cards are not allowed to move inside the donut
+
+- if circle is not borken yet: 
+        continuous checks for broken circle while the card is being dragged
+
+- if circle is NOT broken:
+        no check for broken circle (boolean set to circle broken)
+
+- a card is "taken" if:
+        - the circle is broken for the first time
+        - OR if the card center leaves the donut (not inside)
+
+
+functions to write:
+
+checkOverlap(card1, card2)
+checkCircleBroken(cards)
+convertToCoordinates(card)
+initialiseCards()
+
+card: {
+    id,
+    degree: 0-360,
+    distance,
+    rotation,
+    isTaken
+}

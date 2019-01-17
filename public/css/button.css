@@ -1,0 +1,19 @@
+button {
+    display: block;
+    margin: 20px;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--black);
+}
+
+button:hover, .hover:hover {
+    background-color: var(--hover);
+}
+
+.bordered, button {
+    border: 1px solid var(--black);
+    padding: 15px;
+    border-radius: 3px;
+}
